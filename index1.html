@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Data Validation</title>
+</head>
+<body>
+    <form action="./req.html" method="get">
+    <label for="text">Date(YYYY-MM-DD)</label></br>
+    <input type="text" id="text" name="Date" pattern="^(?:(19|20)\d{2})-(0[1-9]|1[0-2])-(0[1-9]|1\d|2[0-8])$|^(?:(19|20)([02468][048]|[13579][26])|2000)-02-29$|^(?:(19|20)\d{2})-(0[13-9]|1[0-2])-(29|30)$|^(?:(19|20)\d{2})-(0[13578]|1[02])-31$" required title="enter the correct pattern"/>
+    <input type="submit" >
+    </form>
+
+</body>
+</html>
